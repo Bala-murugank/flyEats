@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import FoodCatagories from "./Components/CatagoriesFood/FoodCatagories";
+import Delivery from "./Components/Delivery/Delivery";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import HomeCarousel from "./Components/Home_Carousel/HomeCarousel";
+import TopMeal from "./Components/TopMenuMeal/TopMeal";
+import TopPick from "./Components/TopPick/TopPick";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <div>
+      <Header />
+      <HomeCarousel />
+      <Delivery />
+      <TopPick />
+      <TopMeal />
+      <FoodCatagories />
+      <Footer />
+  </div>
+  )
+  
 }
 
 export default App;

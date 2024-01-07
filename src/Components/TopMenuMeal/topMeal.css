@@ -1,0 +1,11 @@
+.menu_catagory{
+    background-color: darkorange !important;
+    border-color: darkorange !important;
+   
+}
+.menu_catagory:hover, .menu_catagory:active{
+    background-color: white !important;
+     border-color: darkorange !important;
+     color: darkorange !important;
+
+}
