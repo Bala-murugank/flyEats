@@ -21,9 +21,9 @@ const TopMeal = () => {
 
         <div className='flex justify-center gap-3 py-4'>
             <Button onClick={()=> setMealCatagoryFood(mealData)} className='menu_catagory'>All</Button>
-             <Button onClick={()=>  fillterCatagory('pizza')} className='menu_catagory'>Pizza</Button>
-              <Button onClick={()=> fillterCatagory('chicken')} className='menu_catagory'>Chicken</Button>
-               <Button onClick={()=> fillterCatagory('salad')} className='menu_catagory'>Salad</Button>
+            <Button onClick={()=>  fillterCatagory('pizza')} className='menu_catagory'>Pizza</Button>
+            <Button onClick={()=> fillterCatagory('chicken')} className='menu_catagory'>Chicken</Button>
+            <Button onClick={()=> fillterCatagory('salad')} className='menu_catagory'>Salad</Button>
             
 
         </div>
